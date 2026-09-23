@@ -1,7 +1,9 @@
 ---
 title: NSF Launches AI-Ready America Initiative With ...
 url: https://www.meritalk.com/articles/nsf-launches-ai-ready-america-initiative-with-nationwide-hub-funding/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Nationwide" press release artificial intelligence'
 position: 4
 source: serpapi-google

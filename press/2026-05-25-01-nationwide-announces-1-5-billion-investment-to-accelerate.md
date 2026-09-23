@@ -1,7 +1,9 @@
 ---
 title: Nationwide announces $1.5 billion investment to accelerate ...
 url: https://news.nationwide.com/nationwide-announces-15-billion-investment-to-accelerate-technology-ai/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Nationwide" press release artificial intelligence'
 position: 1
 source: serpapi-google
