@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nationwide.png
 tags:
   - Insurance
-  - Financial-Services
+  - Financial Services
   - Fortune 500
   - Auto Insurance
   - Home Insurance
@@ -41,6 +41,7 @@ tags_raw:
   - Fortune 500
   - Auto Insurance
   - Home Insurance
+  - Financial-Services
 url: https://raw.githubusercontent.com/api-evangelist/nationwide/refs/heads/main/apis.yml
 created: '2026-03-21'
 modified: '2026-05-02'
