@@ -2,6 +2,8 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://app.usecanopy.com/api/v1.0.0/carriers
+- https://reports.adviserinfo.sec.gov/reports/CompilationReports/IA_FIRM_SEC_Feed_10_17_2026.xml.gz
+- https://www.wealthbox.com/wp-json/wp/v2/integrations?per_page=100&page=1
 marketplace_apps: []
 edges:
 - partner_name: canopy
@@ -16,3 +18,39 @@ edges:
   covered_as: nationwide
   detected_by: sweep-insurance.py
   detected: '2026-10-13'
+- partner_name: SEC (investment adviser registration)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://adviserinfo.sec.gov/firm/summary/109391
+  category: Investment adviser
+  contract_reference:
+    register: SEC Investment Adviser Public Disclosure (IAPD compilation feed, Form ADV Part 1A)
+    spec_file: null
+    standard: Investment Advisers Act of 1940 (SEC Form ADV)
+    role: sec-registered-investment-adviser
+    registered_name: NATIONWIDE FUND ADVISORS
+    business_name: null
+    register_id: CRD 109391
+    sec_file_number: 801-56370
+    registration_status: APPROVED
+    registered_since: '1999-03-18'
+    main_office: COLUMBUS, OH, United States
+    matched_domain: nationwide.com
+    matched_by: domain
+    identity_source: registrant's own Form ADV Item 1.I website address (no lookup)
+    custody_of_client_assets: false
+    signal_note: 'participation only: SEC registration is not a certification; firm type, custody and office are
+      context, never counted; regulatory AUM is not recorded (breadth is not credit)'
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+    other_registrations:
+    - NATIONWIDE SECURITIES, LLC (CRD 11173)
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+source:
+- https://reports.adviserinfo.sec.gov/reports/CompilationReports/IA_FIRM_SEC_Feed_10_17_2026.xml.gz
+- https://www.wealthbox.com/wp-json/wp/v2/integrations?per_page=100&page=1
